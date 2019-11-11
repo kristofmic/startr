@@ -1,0 +1,26 @@
+@import '../../../../styles/variables.scss';
+
+button.btn {
+  .loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    .loading-icon {
+      vertical-align: text-bottom;
+    }
+  }
+
+  .btn-body {
+    opacity: 1;
+    transition: opacity 100ms linear;
+
+    &.btn-body--entered {
+      opacity: 0;
+    }
+
+    &.btn-body--entering {
+      opacity: 1;
+    }
+  }
+}
