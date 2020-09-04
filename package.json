@@ -70,7 +70,7 @@
     "eslint-plugin-react-hooks": "2.2.0",
     "file-loader": "4.2.0",
     "mini-css-extract-plugin": "0.8.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "nodemon": "1.19.4",
     "prettier": "1.19.1",
     "react-dev-utils": "9.1.0",
